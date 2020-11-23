@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-validation</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/e9ec357a27.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="show-btn" id="show">
+        <button type="submit" name="btn1" name="btn1">Sign-Up</button>
+        <button type="submit" name="btn2" name="btn2">Sign-Ip</button>
+    </div>
+    
+   <div class="form-box">
+       <div class="header">
+        <h1>Create Account</h1>
+       </div>
+       
+<div class="input-box" id="inputbox">
+<form >
+    <div class="control">
+    <label>Username</label>
+    <input type="text" name="Username" placeholder="Enter Username" id="username">
+    <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+    <small>Error message</small>
+</div>
+<div class="control">
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Enter email" id="email">
+    <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+    <small>Error message</small>
+</div>
+<div class="control">
+    <label>Password</label>
+    <input type="password" name="password" placeholder="Enter password" id="password">
+    <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+    <small>Error message</small>
+</div>
+<div class="control">
+    <label>Check Password</label>
+    <input type="password" name="checkpassword" placeholder="Re-enter Password" id="checkpassword">
+    <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+    <small>Error message</small>
+</div>
+
+<button type="submit" name="submit">Submit</button>
+</form>
+
+</div><!--input-box-->
+
+   </div><!--form-box-->
+   <script src="script.js" ></script>
+</body>
+</html>
