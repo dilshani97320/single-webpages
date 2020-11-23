@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/hotel.jpg");
+    background-size: cover;
+    
+}
+.form-box{
+    width: 380px;
+    height: 550px;
+    background:rgb(190, 233, 233);
+	position: relative;
+	
+	margin: 6% auto;
+	padding: 5px;
+
+}
+.header{
+    background-color: rgb(164, 226, 226);
+    padding: 10px 40px;
+}
+h1{
+font-family: sans-serif;
+font-size: 22px;
+text-align: center;
+}
+
+.input-box {
+    padding: 30px 40px;
+
+}
+.control{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative
+
+
+}
+.control label{
+   display: inline-block;
+   margin-bottom: 5px;
+}
+.control input{
+    border:2px solid rgb(113, 223, 223);
+    border-radius: 4px;
+    display:block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+}
+.control.success input{
+border-color: rgb(13, 148, 64);
+}
+
+.control.error input{
+    border-color: red;
+    }
+
+.control.error i.fa-exclamation-circle{
+        color: red;
+        visibility: visible;
+     }
+        
+.control.success i.fa-check-circle{
+            color: rgb(13, 148, 64);
+            visibility: visible;
+}
+
+.control.error small{
+   color: red;
+   visibility: visible;
+    }
+
+.control i{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    visibility: hidden;
+}
+.control small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+button{
+   background-color: rgb(9, 99, 99);
+   color: white;
+   display: block;
+   padding: 10px;
+   width: 100%;
+   border-radius: 4px;
+   font-size: 18px;
+}
+/*.show-btn button{
+   
+    position: flex;
+    display: inline-block ;
+	left: 50%;
+    top:50%;
+    width: 10%;
+    margin-top: 350px;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+	background: linear-gradient(to right,#008B8B,#00ffff);
+	border-radius : 30px;
+   
+}*/
+.show-btn button{
+    padding: 10px;
+	background: linear-gradient(to right,#008B8B,#00ffff);
+    border-radius : 30px;
+    width: 10%;
+    display: inline-block ;
+     
+}
